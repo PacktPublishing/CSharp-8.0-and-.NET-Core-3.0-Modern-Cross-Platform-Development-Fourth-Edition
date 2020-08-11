@@ -33,6 +33,11 @@ namespace Packt.Shared
       // global filter to remove discontinued products
       modelBuilder.Entity<Product>()
         .HasQueryFilter(p => !p.Discontinued);
+        
+      // Sqlite doesn't support the decimal type, so convert it to a double.
+      modelBuilder.Entity<Product>()
+        .Property(p => p.Cost)
+        .HasConversion<double>();
     }
   }
 }
