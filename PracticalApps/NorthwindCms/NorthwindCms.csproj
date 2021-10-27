@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4" />
-    <PackageReference Include="Piranha" Version="7.0.2" />
+    <PackageReference Include="Piranha" Version="9.2.0" />
     <PackageReference Include="Piranha.AspNetCore" Version="7.0.0" />
     <PackageReference Include="Piranha.AspNetCore.Identity.SQLite" Version="7.0.0" />
     <PackageReference Include="Piranha.AttributeBuilder" Version="7.0.0" />
